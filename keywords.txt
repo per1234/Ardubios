@@ -5,62 +5,62 @@
 #######################################
 
 ArdubiosEventGen	KEYWORD1
-ArdubiosKey			KEYWORD1
-ArdubiosLed			KEYWORD1
-ArdubiosTicks		KEYWORD1
-ArdubiosTimer		KEYWORD1
+ArdubiosKey	KEYWORD1
+ArdubiosLed	KEYWORD1
+ArdubiosTicks	KEYWORD1
+ArdubiosTimer	KEYWORD1
 
-id_t				KEYWORD1
-state_t				KEYWORD1
+id_t	KEYWORD1
+state_t	KEYWORD1
 
 #######################################
 # Methods and Functions 
 #######################################	
 
-getId			KEYWORD2
-getState		KEYWORD2
-process			KEYWORD2
-define			KEYWORD2
-setState		KEYWORD2
-off				KEYWORD2
-on				KEYWORD2
-blinkSlow		KEYWORD2
-blinkFast		KEYWORD2
-heartbeat		KEYWORD2
-reset			KEYWORD2
-elapsed			KEYWORD2
-setInterval		KEYWORD2
-start			KEYWORD2
-stop			KEYWORD2
-resetState		KEYWORD2
-idle			KEYWORD2
-running			KEYWORD2
-expired			KEYWORD2
+getId	KEYWORD2
+getState	KEYWORD2
+process	KEYWORD2
+define	KEYWORD2
+setState	KEYWORD2
+off	KEYWORD2
+on	KEYWORD2
+blinkSlow	KEYWORD2
+blinkFast	KEYWORD2
+heartbeat	KEYWORD2
+reset	KEYWORD2
+elapsed	KEYWORD2
+setInterval	KEYWORD2
+start	KEYWORD2
+stop	KEYWORD2
+resetState	KEYWORD2
+idle	KEYWORD2
+running	KEYWORD2
+expired	KEYWORD2
 
 #######################################
 # Constants
 #######################################
  
-Ardubios_KeyStateUp				LITERAL1
-Ardubios_KeyStateDown			LITERAL1
-Ardubios_KeyStateDownLong		LITERAL1
-Ardubios_KeyDownHigh			LITERAL1
-Ardubios_KeyDownLow				LITERAL1
-Ardubios_KeyDownLowPullup		LITERAL1
+Ardubios_KeyStateUp	LITERAL1
+Ardubios_KeyStateDown	LITERAL1
+Ardubios_KeyStateDownLong	LITERAL1
+Ardubios_KeyDownHigh	LITERAL1
+Ardubios_KeyDownLow	LITERAL1
+Ardubios_KeyDownLowPullup	LITERAL1
 
-Ardubios_LedStateOff			LITERAL1
-Ardubios_LedStateOn				LITERAL1
-Ardubios_LedStateBlinkSlow		LITERAL1
-Ardubios_LedStateBlinkFast		LITERAL1
-Ardubios_LedStateHeartbeat		LITERAL1
-Ardubios_LedOnHigh				LITERAL1
-Ardubios_LedOnLow				LITERAL1
+Ardubios_LedStateOff	LITERAL1
+Ardubios_LedStateOn	LITERAL1
+Ardubios_LedStateBlinkSlow	LITERAL1
+Ardubios_LedStateBlinkFast	LITERAL1
+Ardubios_LedStateHeartbeat	LITERAL1
+Ardubios_LedOnHigh	LITERAL1
+Ardubios_LedOnLow	LITERAL1
 
-TICKS_PER_SECOND				LITERAL1
-MILLIS_PER_TICK					LITERAL1
+TICKS_PER_SECOND	LITERAL1
+MILLIS_PER_TICK	LITERAL1
 
-Ardubios_TimerStateReset		LITERAL1
-Ardubios_TimerStateRunning		LITERAL1
-Ardubios_TimerStateExpired		LITERAL1
-Ardubios_TimerTypeOneShot		LITERAL1
-Ardubios_TimerTypeAutoReset		LITERAL1
+Ardubios_TimerStateReset	LITERAL1
+Ardubios_TimerStateRunning	LITERAL1
+Ardubios_TimerStateExpired	LITERAL1
+Ardubios_TimerTypeOneShot	LITERAL1
+Ardubios_TimerTypeAutoReset	LITERAL1
